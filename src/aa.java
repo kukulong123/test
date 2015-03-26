@@ -2,11 +2,11 @@ import java.security.MessageDigest;
 
 public class aa {
 	public static void main(String[] args) {
-		// 3ÖÐÐÄ¡¾signText¡¿0guid²»ÄÜÎª¿Õe885f918-e5a8-4e1d-b349-e978747c5d3cb4106aac-9bc3-4ce0-aae9-d8e81502d35d¡¾±¾Ó¦ÓÃsign¡¿
-		// ¡¾serverSign¡¿1C4C320AD47D2857DFD3D259ABE9CC7D
+		// 3ï¿½ï¿½ï¿½Ä¡ï¿½signTextï¿½ï¿½0guidï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½e885f918-e5a8-4e1d-b349-e978747c5d3cb4106aac-9bc3-4ce0-aae9-d8e81502d35dï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½signï¿½ï¿½
+		// ï¿½ï¿½serverSignï¿½ï¿½1C4C320AD47D2857DFD3D259ABE9CC7D
 
 //		System.out.println(java.util.UUID.randomUUID().toString());
-		
+		// vhhhhhhh
 		String appid = "90101";
 		
 		String method = "CheckLoginV2";
@@ -21,7 +21,7 @@ public class aa {
 		
 		String U2AppKey = "u2testAppKey#$vs";
 		String signText = (method + appid + guid + user + pwd + U2AppKey).toLowerCase();
-		String sign = MD5(signText); //Ç©Ãû
+		String sign = MD5(signText); //Ç©ï¿½ï¿½
 		
 		System.out.println(sign);
 
@@ -30,13 +30,13 @@ public class aa {
         char hexDigits[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};       
         try {
             byte[] btInput = s.getBytes();
-            // »ñµÃMD5ÕªÒªËã·¨µÄ MessageDigest ¶ÔÏó
+            // ï¿½ï¿½ï¿½MD5ÕªÒªï¿½ã·¨ï¿½ï¿½ MessageDigest ï¿½ï¿½ï¿½ï¿½
             MessageDigest mdInst = MessageDigest.getInstance("MD5");
-            // Ê¹ÓÃÖ¸¶¨µÄ×Ö½Ú¸üÐÂÕªÒª
+            // Ê¹ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Ö½Ú¸ï¿½ï¿½ï¿½ÕªÒª
             mdInst.update(btInput);
-            // »ñµÃÃÜÎÄ
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             byte[] md = mdInst.digest();
-            // °ÑÃÜÎÄ×ª»»³ÉÊ®Áù½øÖÆµÄ×Ö·û´®ÐÎÊ½
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½Ê®ï¿½ï¿½ï¿½ï¿½Æµï¿½ï¿½Ö·ï¿½ï¿½ï¿½Ê½
             int j = md.length;
             char str[] = new char[j * 2];
             int k = 0;
