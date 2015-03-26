@@ -6,7 +6,7 @@ public class aa {
 		// ��serverSign��1C4C320AD47D2857DFD3D259ABE9CC7D
 
 //		System.out.println(java.util.UUID.randomUUID().toString());
-		// vhhhhhhh ddddddd
+		// vhhhhhhh ddddddd  ggggg
 		String appid = "90101";
 		
 		String method = "CheckLoginV2";
